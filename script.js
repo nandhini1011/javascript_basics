@@ -59,8 +59,8 @@ console.log(even_numbers(1,100));
 document.getElementById("prime_numbers").innerHTML = prime_numbers(1,100);
 console.log(prime_numbers(1,100));
 
-const userStart = prompt("Enter start number for the functions");
-const userEnd = prompt("Enter end number for the functions");
+const userStart = Number(prompt("Enter start number for the functions"));
+const userEnd = Number(prompt("Enter end number for the functions"));
 
 document.getElementById("custom_numbers").innerHTML = display_numbers(userStart,userEnd);
 console.log(display_numbers(userStart,userEnd));
