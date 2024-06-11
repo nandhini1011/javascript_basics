@@ -51,14 +51,23 @@ function prime_numbers(start_num,end_num){
 }
 
 document.getElementById("numbers").innerHTML = display_numbers(1,100);
+console.log(display_numbers(1,100));
 document.getElementById("odd_numbers").innerHTML = odd_numbers(1,100);
+console.log(odd_numbers(1,100));
 document.getElementById("even_numbers").innerHTML = even_numbers(1,100);
+console.log(even_numbers(1,100));
 document.getElementById("prime_numbers").innerHTML = prime_numbers(1,100);
+console.log(prime_numbers(1,100));
 
 const userStart = prompt("Enter start number for the functions");
 const userEnd = prompt("Enter end number for the functions");
 
 document.getElementById("custom_numbers").innerHTML = display_numbers(userStart,userEnd);
+console.log(display_numbers(userStart,userEnd));
 document.getElementById("custom_odd_numbers").innerHTML = odd_numbers(userStart,userEnd);
+console.log(odd_numbers(userStart,userEnd));
 document.getElementById("custom_even_numbers").innerHTML = even_numbers(userStart,userEnd);
+console.log(even_numbers(userStart,userEnd));
 document.getElementById("custom_prime_numbers").innerHTML = prime_numbers(userStart,userEnd);
+console.log(prime_numbers(userStart,userEnd));
+
